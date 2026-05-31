@@ -1,0 +1,24 @@
+{
+  "name": "@dippede-doodle/home",
+  "version": "0.0.1",
+  "description": "Dippede Doodle's homepage",
+  "type": "module",
+  "homepage": "https://github.com/dippede-doodle/home#readme",
+  "bugs": {
+    "url": "https://github.com/dippede-doodle/home/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dippede-doodle/home.git"
+  },
+  "license": "ISC",
+  "author": "Alexander Bösch <sirthxalot.dev@gmail.com>",
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.17"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
